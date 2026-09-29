@@ -1,0 +1,110 @@
+# ==============================================================================
+# .NET Aspire & .NET Core
+# ==============================================================================
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.dotnet/
+.vs/
+AppHost/bin/
+AppHost/obj/
+ServiceDefaults/bin/
+ServiceDefaults/obj/
+
+# .NET Aspire manifest output
+aspire-manifest.json
+
+# ==============================================================================
+# Python (FastAPI, Flask, Django, etc.)
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# React / Node.js
+# ==============================================================================
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build outputs
+dist/
+build/
+out/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js/Vite caches
+.next/
+.vite/
+.turbo/
+
+# ==============================================================================
+# Environment Variables & Secrets (Universal)
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.appsettings.Development.json
+appsettings.Development.json
+
+# ==============================================================================
+# Operating System & IDEs
+# ==============================================================================
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains (PyCharm, Rider)
+.idea/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json

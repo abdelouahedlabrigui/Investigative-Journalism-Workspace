@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "FastAPIManager.AppHost/FastAPIManager.AppHost.csproj"
+  }
+}

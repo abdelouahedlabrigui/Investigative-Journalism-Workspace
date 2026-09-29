@@ -1,0 +1,11 @@
+fastapi[all]
+uvicorn[standard]
+pydantic
+python-dotenv
+beanie==1.26.0               # Async ODM for MongoDB (built on Motor)
+httpx                # Async HTTP client (used for Ollama)
+sse-starlette        # Server‑Sent Events support for FastAPI
+sentence-transformers
+transformers[torch]
+torch
+nltk

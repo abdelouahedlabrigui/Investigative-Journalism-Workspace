@@ -1,0 +1,31 @@
+.container {
+  margin-right: 4%;
+  margin-right: 4%;
+}
+
+/* Container turns into a flexbox layout */
+.flex-container {
+  display: flex;
+  gap: 20px; /* Space between the columns */
+}
+
+/* Each column takes up equal space */
+.column {
+  flex: 1; 
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+
+/* Responsive design: Stack vertically on small screens */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0066ff;
+  --color-secondary: #f5f7fa;
+}

@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+motor
+spacy
+transformers
+torch   # required by transformers (CPU works fine)
+httpx
+youtube-transcript-api
+python-dotenv
+beanie==1.26.0 
+ollama
+uvicorn

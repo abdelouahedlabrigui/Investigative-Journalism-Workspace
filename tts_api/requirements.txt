@@ -1,0 +1,7 @@
+fastapi
+pydub
+numpy
+librosa
+audioop-lts
+uvicorn
+gTTS
